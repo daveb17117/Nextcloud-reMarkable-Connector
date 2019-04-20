@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>remarkableconnector</id>
+    <name>Re Markable Connector</name>
+    <summary>Connect your Nextcloud with your reMarkable Cloud</summary>
+    <description><![CDATA[This App Connects one of you Folders in Nextcloud to Sync with you reMarkable Cloud.]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="david.boesiger@bluewin.ch" >David Bösiger</author>
+    <namespace>ReMarkableConnector</namespace>
+    <category>integration</category>
+    <bugs>https://github.com/daveb17117/Nextcloud-reMarkable-Connector/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="15" max-version="15"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Re Markable Connector</name>
+            <route>remarkableconnector.page.index</route>
+        </navigation>
+    </navigations>
+</info>

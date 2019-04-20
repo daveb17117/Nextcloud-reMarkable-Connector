@@ -1,0 +1,15 @@
+{
+    "name": "Re Markable Connector",
+    "description": "Connect your Nextcloud with your reMarkable Cloud",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "David Bösiger"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
